@@ -1,23 +1,19 @@
 var courses=[
-    {key:"1", 
-    title:"React Libray Guide", 
-    instructor:"Asaduzzaman Sajeeb", 
-    price:30,
-    img:'https://i.ibb.co/gT36Dyv/a.jpg'},
-    {key:"2", title:"Angular Framework", instructor:"Shaabab Hossain", price:50,img:'https://i.ibb.co/Rhhtn5X/b.jpg'},
-    {key:"3", title:"Django Framework ", instructor:"Yousha Mahmood", price:30,img:'https://i.ibb.co/xsByy9m/q.jpg'},
-    {key:"4", title:"Flutter Development", instructor:"Rakibul Islam", price:20,img:'https://i.ibb.co/XbHJ511/r.jpg'},
-    {key:"5", title:" React Native", instructor:"Wasiur Rahman", price:40,img:'https://i.ibb.co/j83RmrG/f.jpg'},
-    {key:"6", title:"JavaScript Guideline", instructor:"Zahidur Rahman", price:30,img:'https://i.ibb.co/PGtkMv6/g.jpg'},
-    {key:"7", title:"Web Developer Bootcamp", instructor:"Mushfiqur Rahman", price:25,img:'https://i.ibb.co/Sfcxczg/h.jpg'},
-    {key:"8", title:"Android Development", instructor:"Shahnewaz Saad", price:20,img:'https://i.ibb.co/P5bSxvR/i.jpg'},
-    {key:"9", title:"Java Development", instructor:"Rafid Rezwan", price:40,img:'https://i.ibb.co/CzXfkX0/j.jpg'},
-    {key:"10", title:"Bootstrap Guide", instructor:"Ishrak Hossain", price:60,img:'https://i.ibb.co/qgFHZwZ/k.jpg'},
-    {key:"11", title:"Vue Js Development", instructor:"Ahmed Neehal", price:30,img:'https://i.ibb.co/fvQwjqD/l.jpg'},
-    {key:"12", title:"JavaScript-Projects", instructor:"Touhidul Utsho", price:50,img:'https://i.ibb.co/3kvsGpB/m.jpg'},
-    {key:"13", title:"Front-end Guideline", instructor:"Nafis Shahriar", price:30,img:'https://i.ibb.co/WcNxyKg/n.jpg'},
-    {key:"14", title:"Laravel Backend", instructor:"Farshid Ahsan", price:50,img:'https://i.ibb.co/M5dj90D/o.jpg'},
-    {key:"15", title:"English Literature", instructor:"Sakib Mahmud", price:20,img:'https://i.ibb.co/M5dj90D/o.jpg'}
+    {key:"1", title:"Data Structures", instructor:"Tasneem Tazin Rashid", description:"Introduction to widely used and effective methods of data organisation, focussing on data structures, their algorithms and the performance of these algorithms.", price:30,img:'https://i.ibb.co/1Zf1Fhd/a.jpg'},
+    {key:"2", title:"Algorithms", instructor:"Moin Mostakim", description:"The study of efficient algorithms and effective algorithm design techniques.", price:50,img:'https://i.ibb.co/Jv2jPBY/b.jpg'},
+    {key:"3", title:"Discrete Mathematics ", instructor:"Mahbub Alam Majumdar", description:"Set theory, Elementary number theory, Graph theory, Paths and trees, Boolean Algebra, Binary Relations, Functions, Algebraic system.", price:30,img:'https://i.ibb.co/r61cTpt/c.png'},
+    {key:"4", title:"Digital Logic Design", instructor:"Walid Mohammad", description:"An introduction to digital systems such as computer, communication and information systems.", price:20,img:'https://i.ibb.co/M7Thv3p/d.jpg'},
+    {key:"5", title:"Data Communications", instructor:"Md. Ashraful Alam", description:"Introduction to purpose and methods of communication. Necessity for modulation and techniques. Technical aspects of data communications.", price:40,img:'https://i.ibb.co/BCzW92v/e.jpg'},
+    {key:"6", title:"Numerical Methods", instructor:"Suraiya Tairin", description:"Computer Arithmetic: floating point representation of numbers, arithmetic operations with normalized floating point numbers; Iterative methods.", price:30,img:'https://i.ibb.co/2v1pdH1/f.jpg'},
+    {key:"7", title:"Computer Architecture", instructor:"Amitabha Chakraborty", description:"A systematic study of the various elements in computer design, including circuit design, storage mechanisms, addressing schemes, and various approaches to parallelism and distributed logic.", price:25,img:'https://i.ibb.co/HPbsHCv/g.jpg'},
+    {key:"8", title:"Computer Interfacing", instructor:"Md. Khalilur Rahman", description:"Interface components and their characteristics, micro processor I/O. Disk, Drums and Printers. Optical displays and sensors.", price:20,img:'https://i.ibb.co/Kmm5FMr/h.jpg'},
+    {key:"9", title:"Database Systems", instructor:"Hossain Arif", description:"Introduction to concepts and methods for storing and manipulating data in stored form. File retrieval and organisation. Database models and designing of database systems.", price:40,img:'https://i.ibb.co/9q2Z1bv/i.jpg'},
+    {key:"10", title:"Compiler Design", instructor:"Golam Rabiul Alam", description:"Theory and Practice; An introduction to compiler and interpreter design, with emphasis on practical solutions using compiler writing tools.", price:60,img:'https://i.ibb.co/9yVYSyr/j.jpg'},
+    {key:"11", title:"Computer Networks", instructor:"Sadia Hamid Kazi", description:"An introduction to the basics of transport connections and sessions. The protocol hierarchy, design issues in transport and session layer protocol.", price:30,img:'https://i.ibb.co/8XzJ85V/k.jpg'},
+    {key:"12", title:"Neural Networks", instructor:"Moin Mostakim", description:"An extensive course on neural network architectures and learning algorithms with theory and applications.", price:50,img:'https://i.ibb.co/LkYQF2H/l.jpg'},
+    {key:"13", title:"Artificial Intelligence", instructor:"Md. Zavid Parvez", description:"Survey of concepts in artificial intelligence. Knowledge representation, search and Control techniques. AI machines and features of LISP and PROLOG languages.", price:30,img:'https://i.ibb.co/VHb3wf8/m.jpg'},
+    {key:"14", title:"Machine Learning", instructor:"Golam Rabiul Alam", description:"Introduction to machine learning; Supervised and reinforcement learning; Unsupervised learning algorithms.", price:50,img:'https://i.ibb.co/zFJ420q/n.jpg'},
+    {key:"15", title:"Digital System Design", instructor:"Md. Khalilur Rahman", description:"Design using MSI and LSI components. Design of memory subsystem using SRAM and DRAM. Design of various components of a computer.", price:20,img:'https://i.ibb.co/NLJnfj1/o.jpg'}
     ];
     
 export default courses;
